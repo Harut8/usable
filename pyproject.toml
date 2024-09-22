@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ddd-patterns"
+version = "0.1.0"
+description = ""
+authors = ["harut <harut.avetisyan2002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.31"
+asyncpg = "^0.29.0"
+greenlet = "^3.0.3"
+pydantic = "^2.8.2"
+pydantic-settings = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
